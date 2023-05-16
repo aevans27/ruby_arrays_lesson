@@ -14,3 +14,11 @@ p lunch_price.shift(3)
 
 #Unshift adds a element to beginning of array, then returns entire array
 p did_lie.unshift(true)
+
+#Index positions begin at 0, so for an array with a count of 5;
+#instead of goint 1, 2, 3, 4, 5 it is actually 0, 1, 2, 3, 4
+#Also you get an error if you count out of bounds of the array
+
+#Delete removes a specific element, not by index but by value
+p dog_name_array.delete('Sadie')
+p dog_name_array
